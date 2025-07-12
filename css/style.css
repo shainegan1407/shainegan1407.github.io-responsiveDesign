@@ -1,26 +1,4 @@
-/*QUERY #1*/
-@media screen and (min-width:772px){
-    /*DIVS ARE 45% VIEWPORT WIDTH*/
-    div{
-        width: 45vw;
-        display:inline-block;
-    }
-
-    /*IMAGES ARE 30% VIEWPORT HEIGHT*/
-    img{
-       height: 30vh; 
-    }
-}
-
-/*QUERY #2*/
-@media screen and (min-width:998px){
-    div{
-        /*DIVS ARE 30% VIEWPORT WIDTH*/
-        width: 30vw;
-        display:inline-block;
-    }
-}
-
+/*SCROLL TO BOTTOM TO SEE QUERIES*/
 
 body {
     background-color: #dedede;
@@ -66,7 +44,28 @@ div{
   padding: 2px;
 }
 
+/*QUERY #1*/
+@media screen and (min-width:772px){
+    /*DIVS ARE 45% VIEWPORT WIDTH*/
+    div{
+        width: 45vw;
+        display:inline-block;
+    }
 
+    /*IMAGES ARE 30% VIEWPORT HEIGHT*/
+    img{
+       height: 30vh; 
+    }
+}
+
+/*QUERY #2*/
+@media screen and (min-width:998px){
+    div{
+        /*DIVS ARE 30% VIEWPORT WIDTH*/
+        width: 30vw;
+        display:inline-block;
+    }
+}
 
 
 
